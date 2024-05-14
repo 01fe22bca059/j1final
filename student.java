@@ -38,7 +38,7 @@ public class StudentCourseDetails {
         System.out.println("Semester: " + student1.semester);
         System.out.println("Courses Registered:");
         for (Map.Entry<Course, Integer> entry : student1.marks.entrySet()) {
-            System.out.println(entry.getKey().courseName + " (Code: " + entry.getKey().courseCode + ")"): }
+            System.out.println(entry.getKey().courseName + " (Code: " + entry.getKey().courseCode + ")"); }
         System.out.println();
         // Retrieve marks less than 40
         System.out.println("Marks less than 40 for Student 1:");
